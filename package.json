@@ -5,8 +5,8 @@
   "description": "Evidence-based buying-point validation workbench for new brands",
   "scripts": {
     "build": "vite build",
-    "start": "node --env-file-if-exists=.env app/server.js",
-    "test": "node --test tests/*.test.cjs"
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test ai.test.cjs"
   },
   "dependencies": {
     "express": "^4.19.2"

@@ -68,14 +68,14 @@ pnpm start
 
 ## 项目结构
 
-```text
-app/server.js       分析与复盘接口、模型输出校验
-app/ai.cjs          可配置模型服务适配器
-web/src/            界面、表单状态、证据与反馈呈现
-tests/              模型适配器测试
-docs/case-study.md  产品思考与迭代记录
-.env.example        环境配置示例，不含密钥
-```
+为方便浏览器直接上传，本版本的源码全部放在仓库根目录。
+
+- `server.js`：后端分析与复盘接口
+- `ai.cjs`：模型服务适配器
+- `App.jsx`、`main.jsx`、`style.css`、`index.html`：前端
+- `ai.test.cjs`：适配器测试
+- `CASE_STUDY.md`：产品思考
+- `.env.example`：模型配置示例，不含密钥
 
 ## 我的角色
 
